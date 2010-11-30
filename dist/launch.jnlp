@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Type X29</title>
+        <vendor>irenton</vendor>
+        <homepage href=""/>
+        <description>Type X29</description>
+        <description kind="short">Type X29</description>
+
+
+    </information>
+
+    <resources>
+<j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.5+"/>
+<jar eager="true" href="Type_X29.jar" main="true"/>
+
+
+    </resources>
+    <applet-desc height="500" main-class="typex29.applet.Main" name="Type X29" width="800">
+
+    </applet-desc>
+</jnlp>
